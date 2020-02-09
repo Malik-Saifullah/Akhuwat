@@ -6,12 +6,19 @@ header {
     margin: 0 auto;
 }
 
+/*=============================
+            header
+=============================*/
 header {
     position: relative;
     background-image: url(./images/hero-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+header .bg-light {
+    background-color: #fff !important;
 }
 
 .navbar-light .navbar-toggler {
@@ -29,21 +36,24 @@ header nav .container a.navbar-brand img {
     -ms-border-radius: 300%;
     -o-border-radius: 300%;
     margin: 0 auto;
-    margin-bottom: -90px!important;
+    margin-bottom: -80px !important;
     z-index: 99;
 }
 
-header .container #social-icons>ul>li>a>img{
+header .container .social-icons>ul>li>a>img {
     width: 3.5rem !important;
     padding-left: 1rem !important;
 }
 
-header #btn-box{
+header #btn-box {
     position: absolute;
     bottom: 10%;
     left: 45%;
 }
 
+/*=============================
+            cards
+=============================*/
 .progress-bar {
     background-color: #339a51;
 }
@@ -63,6 +73,9 @@ header #btn-box{
     margin: 0 auto;
 }
 
+/*=============================
+            gallery
+=============================*/
 .gallery .img-fluid-box .img-fluid {
     height: 15rem !important;
 }
@@ -76,9 +89,8 @@ header #btn-box{
 }
 
 /*==================================
-            testimonial
+            subscribe
 ==================================*/
-
 #subscribe {
     background-color: #106842;
 }
@@ -96,16 +108,38 @@ header #btn-box{
     width: 8rem;
 }
 
+/*=============================
+            contact-us
+=============================*/
 #iframe {
     width: 100%;
     height: 100%;
 }
 
-#social-icons ul>li>a>img {
-    width: 3rem;
-    /* padding-right: 0; */
+#social-icons {
+    width: 50% !important;
 }
 
+#social-icons ul>li>a>img {
+    width: 2rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* media query */
+@media(max-width:992px) {
+    #find_us .container-fluid .col-md-6 .col-md-1 .ml-5 img {
+        display: none;
+    }
+
+    #find_us .container-fluid .col-md-6 .col-md-6 {
+        margin: 0 !important;
+    }
+}
+
+/*=============================
+            footer
+=============================*/
 footer {
     background-color: #106842;
 }
