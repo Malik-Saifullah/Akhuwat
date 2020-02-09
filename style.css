@@ -19,7 +19,7 @@ header {
     border-color: rgba(0, 0, 0, 0) !important;
 }
 
-header nav .container a img {
+header nav .container a.navbar-brand img {
     width: 10rem;
     height: 10rem;
     border: 1px solid transparent;
@@ -28,6 +28,14 @@ header nav .container a img {
     -moz-border-radius: 300%;
     -ms-border-radius: 300%;
     -o-border-radius: 300%;
+    margin: 0 auto;
+    margin-bottom: -90px!important;
+    z-index: 99;
+}
+
+header .container #social-icons>ul>li>a>img{
+    width: 3.5rem !important;
+    padding-left: 1rem !important;
 }
 
 header #btn-box{
