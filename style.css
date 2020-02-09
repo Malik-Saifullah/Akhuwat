@@ -88,7 +88,7 @@ header nav .container a img {
 
 #social-icons ul>li>a>img {
     width: 3rem;
-    padding-right: 5px;
+    /* padding-right: 0; */
 }
 
 footer {
