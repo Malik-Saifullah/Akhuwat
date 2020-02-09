@@ -7,6 +7,7 @@ header {
 }
 
 header {
+    position: relative;
     background-image: url(./images/hero-bg.jpg);
     background-position: center;
     background-size: cover;
@@ -27,6 +28,12 @@ header nav .container a img {
     -moz-border-radius: 300%;
     -ms-border-radius: 300%;
     -o-border-radius: 300%;
+}
+
+header #btn-box{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
 }
 
 .progress-bar {
